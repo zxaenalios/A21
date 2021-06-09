@@ -163,3 +163,10 @@ body {
     
 }
 
+#List {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    line-height: 0.9;
+    text-align: left;
+}
