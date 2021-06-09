@@ -1,51 +1,72 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .top-wrapper {
-        padding: 100px 0 100px 0;
-        height: 850px;
-        text-align: center;
-        background: linear-gradient(to bottom right, rgba(3.53%, 7.45%, 12.94%, 0.60), rgba(3.53%, 7.45%, 12.94%, 0.84)), url("../images/top-cover.png");
-        background-repeat: no-repeat;
-        background-position:center;
-        background-size: cover;
-    }
-    
-    .content {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-
-    
-    
-    .text-delivery {
-        width: auto;
-    }
-
-    .top-container {
-        width: 100%;
-        text-align: center;
-    }
+  .header {
+    background-color: #bc9866;
   }
-  
-  /* Untuk Smartphone */
-  @media all and (max-width: 670px) {
-    .content {
-      width: 100%;
-    }
-    .top-wrapper h1 {
-        font-size: 4rem;
-    }
-    .top-wrapper p {
-        font-size: 1.5rem;
-    }
-    .top-wrapper .text-discount {
-        font-size: 2rem;
-    }
-    .text-delivery h2 {
-        font-size: 1.2rem;
-    }
-    .text-delivery h3 {
-        font-size: 0.7rem;
-    }
-    
+
+  .top-wrapper {
+    padding: 100px 0 100px 0;
+    height: 850px;
+    text-align: center;
+    background: linear-gradient(
+        to bottom right,
+        rgba(3.53%, 7.45%, 12.94%, 0.6),
+        rgba(3.53%, 7.45%, 12.94%, 0.84)
+      ),
+      url("../images/top-cover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
+
+  .content {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .text-delivery {
+    width: auto;
+  }
+
+  .top-container {
+    width: 100%;
+    text-align: center;
+  }
+  .header-right a:hover {
+    background-color: rgba(40, 33, 22, 0.7);
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .content {
+    width: 100%;
+  }
+  .top-wrapper h1 {
+    font-size: 4rem;
+  }
+  .top-wrapper p {
+    font-size: 1.5rem;
+  }
+  .top-wrapper .text-discount {
+    font-size: 2rem;
+  }
+  .text-delivery h2 {
+    font-size: 1.2rem;
+  }
+  .text-delivery h3 {
+    font-size: 0.7rem;
+  }
+  .header-left {
+    display: none;
+  }
+  .header-right {
+    float: right;
+  }
+}
+
+@media all and(max-width: 331px) {
+  .header-right {
+    padding: 20px 0;
+  }
+}
