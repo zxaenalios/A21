@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+.top-wrapper {
+    padding: 100px 0 100px 0;
+    height: 850px;
+    background-image: url(../images/top-cover.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.top-container {
+    width: 50%;
+    flex: left;
+    padding: 0 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+    color: #282116;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 2px 2px 2px #ffcb85;
+}
+
+.top-wrapper p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+    color: #ffcb85;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 50px;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.top-wrapper .text-discount {
+    font-family: 'Pacifico', cursive;
+    color: red;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px #333;
+    animation-duration: .5s;
+    animation-name: fadeAndScale;
+    animation-iteration-count: 1000;
+}
+
+@keyframes fadeAndScale {
+    from {
+        opacity: 0;
+        transform: scale(.9, .9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1.5, 1.5);
+    }
+}
+
+.text-delivery {
+    background-color: rgba(40, 33, 22 , 0.7);
+    color: #f4f4f4;
+    padding: 10px;
+    margin: 30px auto;
+    width: 550px;
+}
+
+.text-delivery h2 {
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 3px; 
+}
+.text-delivery h3 {
+    font-family: 'Fira Sans', sans-serif;
+ 
+}
+
+.btn-order {
+    color: #282116;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 50px;
+    border: 3px solid #282116;
+    cursor: pointer;
+    box-shadow: 0px 10px black;
+}
+
+.btn-order:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.main {
+    background:#f4f4f4;
+    height: 500px;
+    
+}
+.main-container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+.header-content {
+    text-align: center;
+    font-family:  'Pacifico', cursive;
+    font-size: 3rem;
+    padding: 30px;
+    color: #582116;
+}
+
+.content {
+    height: 300px;
+    width: 25%;
+    float:left;
+    text-align: center;
+    line-height: 10px;
+    cursor: pointer;
+}
+
+.content img:hover {
+    width: 250px;
+    height: 250px;
+}
+
+.content h3 {
+    font-family:  'Pacifico', cursive;
+    font-size: 2rem;
+    color: #582116;
+}
+
+.content p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    
+}
+
