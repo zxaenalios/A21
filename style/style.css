@@ -215,3 +215,17 @@ body {
     line-height: 0.9;
     text-align: left;
 }
+
+footer {
+  background-color: #282116;
+  color: #fff;
+  text-align: center;
+  padding: auto;
+  height: 100px;
+}
+
+footer p {
+  margin: auto;
+  padding: 40px;
+}
+
